@@ -5,11 +5,22 @@
 
   /* ============ تنظیمات (فقط همین بخش را ویرایش کن) ============ */
 
+
+
+// var CONFIG = {
+//   provider: 'openai',
+//   apiKey: 'aa-s9KJfQNjKtVn2uc36yGSCBEed5aoKkBtD9CIyxRYMIvVrLZ4',
+//   model: 'gpt-6-luna',
+//   baseUrl: 'https://api.avalai.ir/v1/chat/completions',
+//   timeoutMs: 30000,
+//   imgExt: 'png'
+// };
+
 var CONFIG = {
   provider: 'openai',
-  apiKey: 'aa-s9KJfQNjKtVn2uc36yGSCBEed5aoKkBtD9CIyxRYMIvVrLZ4',
-  model: 'gpt-6-luna',
-  baseUrl: 'https://api.avalai.ir/v1/chat/completions',
+  apiKey: 'sk-5Ktzm7pz0HYya59sMTUCoaEzwj92HNo9YvFQ5XkrDsKkzQzi',
+  model: 'agnes-2.5-flash',
+  baseUrl: 'https://apihub.agnes-ai.com/v1/chat/completions',
   timeoutMs: 30000,
   imgExt: 'png'
 };
